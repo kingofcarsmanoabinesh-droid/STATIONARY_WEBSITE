@@ -83,7 +83,7 @@
   .hero-title {
     font-family: 'Playfair Display', serif;
     font-size: clamp(2.8rem, 5vw, 4.2rem);
-    color: #fff; line-height: 1.15; margin-bottom: 20px;
+    color: #fff; line-height: 1.15; margin-bottom: 30px;
   }
   .hero-title em { color: var(--gold); font-style: italic; }
   .hero-sub {
@@ -110,7 +110,7 @@
   }
   .hero-card .icon { font-size: 2rem; }
   .hero-card span {
-    font-size: 0.75rem; color: var(--warm-gray);
+    font-size: 0.85rem; color: var(--warm-gray);
     letter-spacing: 1px; text-align: center;
   }
 
@@ -181,7 +181,7 @@
   }
   .product-desc {
     font-size: 0.78rem; color: var(--warm-gray);
-    line-height: 1.6; flex: 1;
+    line-height: 1.5; flex: 1;
   }
   .product-footer {
     display: flex; align-items: center; justify-content: space-between;
@@ -216,7 +216,7 @@
   }
   #cart-sidebar.open { right: 0; }
   .cart-head {
-    padding: 24px 28px; border-bottom: 1px solid var(--paper);
+    padding: 24px 29px; border-bottom: 1px solid var(--paper);
     display: flex; align-items: center; justify-content: space-between;
   }
   .cart-head h2 {
@@ -232,7 +232,7 @@
   }
   .cart-item {
     display: flex; gap: 14px; align-items: center;
-    padding: 14px 0; border-bottom: 1px solid var(--paper);
+    padding: 15px 0; border-bottom: 1px solid var(--paper);
   }
   .cart-item-icon {
     width: 52px; height: 52px; background: var(--paper);
